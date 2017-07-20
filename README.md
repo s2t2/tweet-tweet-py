@@ -12,7 +12,13 @@ Download the source code:
 
 ```shell
 git clone __________
-cd _________
+cd tweet-tweet-py
+```
+
+Install package dependencies:
+
+```shell
+pip3 install -r requirements.txt
 ```
 
 ## Usage
