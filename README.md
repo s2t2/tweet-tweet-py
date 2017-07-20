@@ -4,14 +4,18 @@ An example of how to use Python to create, read, and destroy Tweets.
 
 ## Prerequisites
 
-Create a Twitter account and send a few example Tweets from it. Then separately register for a developer account and note your API Key. Then save your API Key as an environment variable called `TWITTER_API_KEY`.
+Create a Twitter account and send a few example Tweets from it. Or use your own Twitter account, but be careful.
+
+Then while logged in to Twitter, visit the [Twitter Application Management Console](https://apps.twitter.com/) and click "Create New App"
+
+After creating a new application, note its "Consumer Key" and "Consumer Secret". These are secret passwords that should not be shared or tracked in version control. Store your application's passwords in environment variables called something like `TWITTER_API_KEY` and `TWITTER_API_SECRET`, respectively.
 
 ## Installation
 
 Download the source code:
 
 ```shell
-git clone __________
+git clone __________ # https://github.com/s2t2/tweet-tweet-py
 cd tweet-tweet-py
 ```
 
