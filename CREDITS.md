@@ -22,3 +22,4 @@
 
   + [Tweepy Auth Tutorial](http://tweepy.readthedocs.io/en/v3.5.0/auth_tutorial.html#auth-tutorial)
   + [Tweepy API Reference](http://tweepy.readthedocs.io/en/v3.5.0/api.html#api-reference)
+  + [Pagination](http://tweepy.readthedocs.io/en/v3.5.0/code_snippet.html#pagination)
