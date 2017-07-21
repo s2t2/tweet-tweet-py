@@ -21,8 +21,18 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-# tweets = api.home_timeline()
-tweets = api.user_timeline()
+#
+# API Usage
+#
 
+user = api.me()
+print("---------------------------------------------------------------")
+print("RECENT TWEETS BY @{0} ({1} FOLLOWERS / {2} FOLLOWING):".format(user.screen_name, user.followers_count, user.friends_count))
+print("---------------------------------------------------------------")
+
+tweets = api.user_timeline()
 for tweet in tweets:
-    print(" + ", tweet.text)
+    # dir(tweet)
+    #print(tweet._json)
+    created_on = tweet.created_at.strftime("%Y-%m-%d")
+    print(" + ", tweet.id_str, created_on, tweet.text)
