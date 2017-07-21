@@ -30,9 +30,8 @@ print("---------------------------------------------------------------")
 print("RECENT TWEETS BY @{0} ({1} FOLLOWERS / {2} FOLLOWING):".format(user.screen_name, user.followers_count, user.friends_count))
 print("---------------------------------------------------------------")
 
-tweets = api.user_timeline()
+tweets = api.user_timeline() # why are deleted tweets showing up in here? contacted twitter support...
+
 for tweet in tweets:
-    # dir(tweet)
-    #print(tweet._json)
-    created_on = tweet.created_at.strftime("%Y-%m-%d")
-    print(" + ", tweet.id_str, created_on, tweet.text)
+    created_at = tweet.created_at.strftime("%Y-%m-%d %H:%M")
+    print(" + ", created_at, "|", tweet.text)
