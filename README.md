@@ -15,8 +15,8 @@ After creating a new application, note its "Consumer Key" and "Consumer Secret".
 Download the source code:
 
 ```shell
-git clone __________ # https://github.com/s2t2/tweet-tweet-py
-cd tweet-tweet-py
+git clone git@github.com:s2t2/tweet-tweet-py.git
+cd tweet-tweet-py/
 ```
 
 Install package dependencies:

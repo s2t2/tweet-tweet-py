@@ -5,6 +5,8 @@
 ### Twitter Applications
 
   + [Requires mobile number](https://support.twitter.com/articles/110250-adding-your-mobile-number-to-your-account-via-web)
+  + [Finding out which account a mobile number belongs to](https://support.twitter.com/articles/95277)
+  + [Updating twitter account phone numbers](https://support.twitter.com/articles/81940)
 
 ### Twitter API Clients for Python
 
